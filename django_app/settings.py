@@ -12,14 +12,10 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from django.core.management.utils import get_random_secret_key
 from pathlib import Path
-import environ
+
 import os
 import sys
 import dj_database_url
-
-# Initialise environment variables
-env = environ.Env()
-environ.Env.read_env()
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
