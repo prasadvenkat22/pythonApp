@@ -1,0 +1,5 @@
+Requirement already satisfied: pandas in c:\python\python376\lib\site-packages (0.25.1)
+Requirement already satisfied: numpy in c:\python\python376\lib\site-packages (1.18.0)
+Requirement already satisfied: python-dateutil>=2.6.1 in c:\python\python376\lib\site-packages (from pandas) (2.8.0)
+Requirement already satisfied: pytz>=2017.2 in c:\python\python376\lib\site-packages (from pandas) (2018.9)
+Requirement already satisfied: six>=1.5 in c:\python\python376\lib\site-packages (from python-dateutil>=2.6.1->pandas) (1.12.0)
