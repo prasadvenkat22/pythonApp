@@ -46,8 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'polls',
     'main',
-        'catalog.apps.CatalogConfig', #This object was created for us in /catalog/apps.py
-
+    'catalog.apps.CatalogConfig', #This object was created for us in /catalog/apps.py
 
 ]
 
@@ -101,7 +100,6 @@ elif len(sys.argv) > 0 and sys.argv[1] != 'collectstatic':
 
 
 # Password validation
-# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {

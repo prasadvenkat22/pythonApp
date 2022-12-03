@@ -5,7 +5,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.views.generic import RedirectView
 
-
+# If you're intending to use the browsable API you'll probably also want to add REST framework's login and logout views
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
