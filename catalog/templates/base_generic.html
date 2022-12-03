@@ -8,6 +8,8 @@
   <!-- Add additional CSS in static file -->
   {% load static %}
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  {% load static %}
+  <img src="{% static 'images/logo.png' %}" alt="My image" style="width:55px;height:50px;" >
 </head>
 <body>
   <div class="container-fluid">
@@ -16,7 +18,7 @@
       {% block sidebar %}
         <ul class="sidebar-nav">
           <li><a href="{% url 'index' %}">Home</a></li>
-          <li><a href="">All books</a></li>
+          <li><a href="{% url 'books' %}">All books</a></li>
           <li><a href="">All authors</a></li>
         </ul>
      {% endblock %}
