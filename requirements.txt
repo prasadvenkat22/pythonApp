@@ -20,5 +20,6 @@ django-crispy-forms>=1.8.1
 django-filter>=22.1
 django-six>=1.0.4
 django-utils>=0.0.2
+djangorestframework>=3.10.3
 Pillow>=6.2.1
 requests>=2.22.0
